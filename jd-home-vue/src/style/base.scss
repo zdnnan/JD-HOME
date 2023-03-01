@@ -1,0 +1,19 @@
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: .12rem;
+}
+
+img {
+  object-fit: cover;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
